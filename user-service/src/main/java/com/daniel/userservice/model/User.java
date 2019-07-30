@@ -51,7 +51,7 @@ public class User implements UserDetails, Serializable {
 
     @Override
     public String getPassword() {
-        return null;
+        return password;
     }
 
     public void setPassword(String password) {
@@ -60,7 +60,7 @@ public class User implements UserDetails, Serializable {
 
     @Override
     public String getUsername() {
-        return null;
+        return username;
     }
 
     public void setUsername(String username) {
